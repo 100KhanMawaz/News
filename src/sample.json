@@ -1,0 +1,69 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Maria Cartaya and Dakin Andone, CNN",
+      "title": "Curtis Reeves, retired police captain who fatally shot man in movie theater, acquitted - CNN",
+      "description": "A Florida jury acquitted retired Florida police captain Curtis Reeves in the shooting death of a man in a movie theater eight years ago.",
+      "url": "https://www.cnn.com/2022/02/25/us/curtis-reeves-murder-trial-jury-deliberations/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220225163011-curtis-reeves-trial-0225-super-tease.jpg",
+      "publishedAt": "2022-02-26T03:52:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Ken Thomas, Jacob Gershman, Jess Bravin",
+      "title": "Ketanji Brown Jackson Announced as Biden’s Pick for Supreme Court Nominee - The Wall Street Journal",
+      "description": "Appeals court judge in Washington, D.C., would be first Black woman to serve on nation’s top court",
+      "url": "https://www.wsj.com/articles/biden-taps-ketanji-brown-jackson-for-supreme-court-11645797644",
+      "urlToImage": "https://images.wsj.net/im-493372/social",
+      "publishedAt": "2022-02-25T23:48:00Z",
+      "content": "President Biden on Friday selected Judge Ketanji Brown Jackson to fill a vacancy on the Supreme Court, making her the first Black woman nominated to be a justice on the nations highest court.\r\nFor to… [+178 chars]"
+    },
+    {
+      "source": { "id": "associated-press", "name": "Associated Press" },
+      "author": "Michael Biesecker, Joshua Goodman, Sarah El Deeb",
+      "title": "US sanctions on Russian oligarchs miss richest of rich - Associated Press",
+      "description": "WASHINGTON (AP) — The term Russian oligarch conjures images of posh London mansions, gold-plated Bentleys and sleek superyachts in the Mediterranean, their decks draped with partiers dripping in jewels.",
+      "url": "https://apnews.com/article/russia-ukraine-ivanka-trump-joe-biden-sports-business-785172175d5ab4800e2a816b3ae2193d",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/4813ef5ebcc24faea40d7f39dd60bcc5/3000.jpeg",
+      "publishedAt": "2022-02-25T23:21:19Z",
+      "content": "WASHINGTON (AP) The term Russian oligarch conjures images of posh London mansions, gold-plated Bentleys and sleek superyachts in the Mediterranean, their decks draped with partiers dripping in jewels… [+9366 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Daily Beast" },
+      "author": "Zoe Richards",
+      "title": "Ukraine and Russia Are Discussing Timing of 'Potential Peace Talks' - The Daily Beast",
+      "description": "“The sides are holding consultations on the place and time,” a spokesman for Ukranian President Volodymyr Zelensky said.",
+      "url": "https://www.thedailybeast.com/ukraine-and-russia-are-discussing-timing-of-potential-peace-talks",
+      "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_2024,w_3599,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1645827919/GettyImages-1237265499_j1ktov",
+      "publishedAt": "2022-02-25T22:46:20Z",
+      "content": "Ukraine is in discussions with Russia about the timing and location of a potential cease-fire. The sides are holding consultations on the place and time to start the negotiations process, Serhiy Nyky… [+494 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Rolling Stone" },
+      "author": "Alan Sepinwall",
+      "title": "‘The Dropout’ Shows How Theranos Founder Elizabeth Holmes’ Blood Ran Cold - Rolling Stone",
+      "description": "Hulu's series starring Amanda Seyfried follows the stunning downfall of the tech prodigy who duped investors, colleagues, and customers about her miracle medical device that never really worked",
+      "url": "https://www.rollingstone.com/tv/tv-reviews/dropout-review-1310233/",
+      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2022/02/dropout_105_bd_01736rtc.jpg",
+      "publishedAt": "2022-02-25T15:00:41Z",
+      "content": "“I believed in her,” chemist Ian Gibbons (Stephen Fry) says of tech mogul Elizabeth Holmes (Amanda Seyfried) midway through the Hulu docudrama The Dropout. “I looked in her eyes and I thought… I thou… [+5910 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Live Science" },
+      "author": "Nicoletta Lanese",
+      "title": "Largest human family tree ever created retraces the history of our species - Livescience.com",
+      "description": "The tree is based on thousands of human genome sequences.",
+      "url": "https://www.livescience.com/largest-human-family-tree-genealogy",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/ckhoKsEev9fA6E7HmCnvvR-1200-80.gif",
+      "publishedAt": "2022-02-25T12:00:02Z",
+      "content": "A new, enormous family tree for all of humanity attempts to summarize how all humans alive today relate both to one another and to our ancient ancestors.  \r\nTo build this family tree, or genealogy, r… [+8391 chars]"
+    }
+  ]
+}
