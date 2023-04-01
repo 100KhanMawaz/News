@@ -1,0 +1,10 @@
+@media screen and (max-width:1000px) {
+    .nav-item{
+       gap: 1rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .nav-item{
+        flex-direction: column !important;
+    }
+}

@@ -1,7 +1,7 @@
-import React, { Component,useState,useEffect } from 'react'
+import React, {useState,useEffect } from 'react'
 import PropTypes from 'prop-types'
 import NewsItem from './NewsItem'
-import InfiniteScroll from "react-infinite-scroll-component";
+// import InfiniteScroll from "react-infinite-scroll-component";
 
 const News =(props)=> {
     const [articles, setarticles] = useState([])
@@ -15,11 +15,12 @@ const News =(props)=> {
         let data = await fetch(url);
         let parsedData = await data.json();
         console.log(parsedData);
+        console.log(`page=${page}`);
         setarticles(parsedData.articles)
         settotalResults(parsedData.totalResults)
     }
     useEffect(() => {
-        document.title= `${Capitalize(props.category)}-NewsMonkey`;
+        document.title= `${Capitalize(props.category)}-Khabar`;
       updateNews();
     }, [])
        // Component did mount ke jagah isko use kar rhe hai
@@ -35,8 +36,8 @@ const News =(props)=> {
         // let data = await fetch(url);
         // let parsedData = await data.json();
         // console.log(parsedData);
-        setpage(page+1);
-        updateNews();
+         setpage(page-1);
+         updateNews();
     }
    const next= async ()=>{
         
@@ -45,7 +46,7 @@ const News =(props)=> {
         // let data = await fetch(url);
         // let parsedData = await data.json();
         // console.log(parsedData);
-        setpage(page-1);
+         setpage(page+1);
         updateNews();
     }
    
@@ -53,9 +54,9 @@ const News =(props)=> {
         if(articles.length===0){
             return(
             <>
-            <div class="text-center">
-  <div class="spinner-border" role="status">
-    <span class="sr-only">Loading...</span>
+            <div className="text-center">
+  <div className="spinner-border" role="status" style={{position:'fixed',top:'8%'}}>
+    <span className="sr-only">Loading...</span>
   </div>
 </div>
 </>
@@ -82,8 +83,8 @@ else{
            
         <div>
           <div className="container d-flex justify-content-between my-3 mx-2">
-        <button type="button" disabled={page<=1} onClick={previous} class="btn btn-dark">&larr; Preview</button>
-        <button type="button" disabled={page >= Math.ceil(totalResults/props.pageSize)} onClick={next} class="btn btn-dark">Next &rarr;</button>
+        <button type="button" disabled={page<=1} onClick={previous} className="btn btn-dark">&larr; Preview</button>
+        <button type="button" disabled={page >= Math.ceil(totalResults/props.pageSize)} onClick={next} className="btn btn-dark">Next &rarr;</button>
         </div>
         </div>
         </>

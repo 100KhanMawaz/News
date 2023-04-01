@@ -1,11 +1,10 @@
 import './App.css';
-
 import React from 'react'
 import Navbaar from './components/Navbaar';
 import News from './components/News';
 import PropTypes from 'prop-types';
 import {
-  BrowserRouter as Router,
+  BrowserRouter as HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -14,13 +13,13 @@ import Notes from './components/Notes';
 
 const App=()=> {
  
-let pageSize=15;
+let pageSize=12;
   let apiKey=process.env.REACT_APP_NEWS_API;
     return (
       <>
 <div>
   <NoteState>
-      <Router>
+      <HashRouter>
      <Navbaar/>
      
      <Routes>
@@ -34,7 +33,7 @@ let pageSize=15;
           <Route path="/technology"element={<News key="technology" apiKey={apiKey} pageSize={pageSize} category="technology"/>}/>
           <Route path="/notes"element={<Notes/>}/>
         </Routes>
-     </Router>
+     </HashRouter>
      </NoteState>
      </div>
      </>

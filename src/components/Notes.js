@@ -20,7 +20,9 @@ function Notes(props) {
 <div className="btn btn-primary">AddNotes</div>
 <h1>Preview</h1>
 {a.note.map((A)=>{
+  return(
 <p>{A.note.title}</p>
+)
 })}
 </div>
    </>
